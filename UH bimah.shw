@@ -1,0 +1,7 @@
+#2.1#
+show "UH bimah" 0 0 0 0 0 0 0 0 0 0 "X32-Edit 3.00"
+cue/000 100 "Friday night" 0 -1 0 0 1 0 0
+cue/001 200 "Virtual Snd Chk" 0 -1 1 0 1 0 0
+scene/000 "power on" "" %000000000 1
+snippet/000 "live sound" 8388672 0 0 192 1
+snippet/001 "virtual snd chk" 8388672 0 0 192 1
