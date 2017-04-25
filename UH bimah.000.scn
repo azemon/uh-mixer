@@ -158,20 +158,20 @@
 /ch/04/automix OFF  +0.0
 /ch/05/config "Desk" 52 YE 5
 /ch/05/delay OFF   6.0
-/ch/05/preamp +0.0 OFF ON 24  70
+/ch/05/preamp +0.0 OFF ON 24  79
 /ch/05/gate OFF GATE -80.0 60.0 1  502  983 0
 /ch/05/gate/filter OFF 3.0 990.9
 /ch/05/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /ch/05/dyn/filter OFF 3.0 990.9
 /ch/05/insert OFF POST OFF
 /ch/05/eq ON
-/ch/05/eq/1 PEQ 124.7 +0.00 2.0
-/ch/05/eq/2 PEQ 496.6 +0.00 2.0
-/ch/05/eq/3 PEQ 1k97 +0.00 2.0
-/ch/05/eq/4 HShv 7k87 -9.50 2.0
-/ch/05/mix ON   0.0 ON +0 ON   0.0
-/ch/05/mix/01 ON -13.0 +0 POST
-/ch/05/mix/02 ON -13.0
+/ch/05/eq/1 LShv 170.2 -6.00 3.9
+/ch/05/eq/2 PEQ 295.8 -4.00 3.9
+/ch/05/eq/3 PEQ 1k06 -6.50 2.0
+/ch/05/eq/4 HShv 10k02 -7.50 2.0
+/ch/05/mix ON  +4.4 ON +0 ON   0.0
+/ch/05/mix/01 ON -16.5 +0 POST
+/ch/05/mix/02 ON -16.5
 /ch/05/mix/03 ON   -oo +0 POST
 /ch/05/mix/04 ON   -oo
 /ch/05/mix/05 OFF   -oo +0 POST
@@ -1454,7 +1454,7 @@
 /bus/01/eq/3 PEQ 496.6 +0.00 2.0
 /bus/01/eq/4 PEQ 1k97 +0.00 2.0
 /bus/01/eq/5 PEQ 5k02 +0.00 2.0
-/bus/01/eq/6 HCut 14k15 -6.00 2.0
+/bus/01/eq/6 HCut 11k50 -4.75 2.0
 /bus/01/mix ON   0.0 OFF +0 OFF   -oo
 /bus/01/mix/01 ON   -oo +0 POST
 /bus/01/mix/02 ON   -oo
