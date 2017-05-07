@@ -1,9 +1,10 @@
-#2.6#
+#2.1#
 show "UH bimah" 0 0 0 0 0 0 0 0 0 0 "X32-Edit 3.00"
 cue/000 100 "Friday night" 0 -1 0 0 1 0 0
 cue/001 200 "Virtual Snd Chk" 0 -1 1 0 1 0 0
 scene/000 "power on" "" %000000000 1
 scene/002 "Nefesh Mountain" "" %000000000 1
+scene/003 "Nefsh2" "" %000000000 1
 scene/004 "Rick 2017-05-05" "" %000000000 1
 scene/006 "RICK-BAND" "" %000000000 1
 snippet/000 "live sound" 8388672 0 0 192 1
