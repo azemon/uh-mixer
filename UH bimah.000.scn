@@ -1,4 +1,4 @@
-#2.6# "power on" "" %000000000 1                                                                                               
+#2.1# "power on" "" %000000000 1                                                                                               
 /config/chlink OFF OFF OFF OFF ON OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
@@ -169,7 +169,7 @@
 /ch/05/eq/2 PEQ 295.8 -4.00 3.9
 /ch/05/eq/3 PEQ 1k06 -6.50 2.0
 /ch/05/eq/4 HShv 10k02 -7.50 2.0
-/ch/05/mix ON   0.0 ON +0 ON   0.0
+/ch/05/mix ON  +0.6 ON +0 ON   0.0
 /ch/05/mix/01 ON -16.5 +0 POST
 /ch/05/mix/02 ON -16.5
 /ch/05/mix/03 ON   -oo +0 POST
@@ -201,7 +201,7 @@
 /ch/06/eq/2 PEQ 496.6 +0.00 2.0
 /ch/06/eq/3 PEQ 1k97 +0.00 2.0
 /ch/06/eq/4 HShv 10k02 +0.00 2.0
-/ch/06/mix ON   -oo ON +0 ON   0.0
+/ch/06/mix ON -78.3 ON +0 ON   0.0
 /ch/06/mix/01 ON -13.0 +0 POST
 /ch/06/mix/02 ON -13.0
 /ch/06/mix/03 ON   -oo +0 POST
@@ -292,8 +292,8 @@
 /ch/09/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /ch/09/dyn/filter OFF 3.0 990.9
 /ch/09/insert OFF POST OFF
-/ch/09/eq OFF
-/ch/09/eq/1 PEQ 124.7 +0.00 2.0
+/ch/09/eq ON
+/ch/09/eq/1 LShv 64.7 +5.00 2.0
 /ch/09/eq/2 PEQ 496.6 +0.00 2.0
 /ch/09/eq/3 PEQ 1k97 +0.00 2.0
 /ch/09/eq/4 HShv 10k02 +0.00 2.0
@@ -324,8 +324,8 @@
 /ch/10/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /ch/10/dyn/filter OFF 3.0 990.9
 /ch/10/insert OFF POST OFF
-/ch/10/eq OFF
-/ch/10/eq/1 PEQ 124.7 +0.00 2.0
+/ch/10/eq ON
+/ch/10/eq/1 LShv 64.7 +5.00 2.0
 /ch/10/eq/2 PEQ 496.6 +0.00 2.0
 /ch/10/eq/3 PEQ 1k97 +0.00 2.0
 /ch/10/eq/4 HShv 10k02 +0.00 2.0
