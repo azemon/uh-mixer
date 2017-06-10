@@ -1,4 +1,4 @@
-#2.1# "Kalix" "" %000000000 1                                                                                                  
+#2.6# "Kalix" "" %000000000 1                                                                                                  
 /config/chlink OFF OFF OFF OFF ON OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
@@ -65,12 +65,12 @@
 /ch/02/preamp +0.0 OFF ON 24 121
 /ch/02/gate OFF GATE -80.0 60.0 1  502  983 0
 /ch/02/gate/filter OFF 3.0 990.9
-/ch/02/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/02/dyn ON COMP RMS LOG -18.0 4.0 5 0.00 20 20.0  211 POST 0 100 OFF
 /ch/02/dyn/filter OFF 3.0 990.9
 /ch/02/insert OFF POST OFF
 /ch/02/eq ON
-/ch/02/eq/1 PEQ 285.8 +0.75 2.0
-/ch/02/eq/2 PEQ 570.2 +1.75 0.7
+/ch/02/eq/1 PEQ 285.8 +0.00 2.0
+/ch/02/eq/2 PEQ 570.2 +0.00 0.7
 /ch/02/eq/3 PEQ 2k04 +0.00 1.0
 /ch/02/eq/4 HShv 10k02 -6.00 2.0
 /ch/02/mix ON   0.0 ON +0 ON   0.0
@@ -252,18 +252,18 @@
 /ch/07/mix/16 ON   -oo
 /ch/07/grp %00000000 %000000
 /ch/07/automix OFF  +0.0
-/ch/08/config "Gtr B" 23 CY 8
+/ch/08/config "Ukulele" 1 CY 8
 /ch/08/delay OFF   0.3
-/ch/08/preamp +0.0 OFF ON 24  70
-/ch/08/gate OFF GATE -80.0 60.0 1  502  983 0
+/ch/08/preamp +0.0 OFF ON 24 121
+/ch/08/gate ON GATE -50.5 60.0 1  502  983 0
 /ch/08/gate/filter OFF 3.0 990.9
-/ch/08/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/08/dyn ON COMP PEAK LOG -18.0 3.0 4 0.00 6 10.0  30 POST 0 100 OFF
 /ch/08/dyn/filter OFF 3.0 990.9
 /ch/08/insert OFF POST OFF
 /ch/08/eq ON
-/ch/08/eq/1 PEQ 124.7 +4.50 1.2
-/ch/08/eq/2 PEQ 496.6 +4.75 1.0
-/ch/08/eq/3 PEQ 1k97 -3.50 1.3
+/ch/08/eq/1 PEQ 351.6 +2.00 1.0
+/ch/08/eq/2 PEQ 751.7 +0.00 2.0
+/ch/08/eq/3 PEQ 1k84 +0.00 2.0
 /ch/08/eq/4 HShv 9k35 +0.00 2.0
 /ch/08/mix ON   0.0 ON +10 ON   0.0
 /ch/08/mix/01 ON  -7.0 +0 POST
