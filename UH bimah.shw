@@ -5,5 +5,6 @@ cue/001 200 "Virtual Snd Chk" 0 -1 1 0 1 0 0
 scene/000 "power on" "" %000000000 1
 scene/001 "Rick Band" "" %000000000 1
 scene/002 "Nefesh Mountain" "" %000000000 1
+scene/004 "Kalix" "" %000000000 1
 snippet/000 "live sound" 8388672 0 0 192 1
 snippet/001 "virtual snd chk" 8388672 0 0 192 1
