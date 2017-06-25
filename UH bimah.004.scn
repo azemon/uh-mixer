@@ -1,4 +1,4 @@
-#2.6# "Kalix" "" %000000000 1                                                                                                  
+#2.1# "Kalix" "" %000000000 1                                                                                                  
 /config/chlink OFF OFF OFF OFF OFF ON OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
@@ -41,7 +41,7 @@
 /ch/01/eq/2 PEQ 514.1 +0.00 1.0
 /ch/01/eq/3 PEQ 1k97 +0.00 2.0
 /ch/01/eq/4 HShv 6k85 +0.00 2.0
-/ch/01/mix ON   0.0 ON +0 ON   0.0
+/ch/01/mix ON  -0.1 ON +0 ON   0.0
 /ch/01/mix/01 ON  -7.0 +0 POST
 /ch/01/mix/02 ON  -7.0
 /ch/01/mix/03 ON   -oo +0 POST
@@ -72,10 +72,10 @@
 /ch/02/eq/1 PEQ 285.8 +0.00 2.0
 /ch/02/eq/2 PEQ 570.2 +0.00 0.7
 /ch/02/eq/3 PEQ 2k04 +0.00 1.0
-/ch/02/eq/4 HShv 10k02 -6.00 2.0
+/ch/02/eq/4 HShv 16k82 -8.00 2.0
 /ch/02/mix ON   0.0 ON +0 ON   0.0
-/ch/02/mix/01 ON -13.0 +0 POST
-/ch/02/mix/02 ON -13.0
+/ch/02/mix/01 ON -19.0 +0 POST
+/ch/02/mix/02 ON -19.0
 /ch/02/mix/03 ON   -oo +0 POST
 /ch/02/mix/04 ON   -oo
 /ch/02/mix/05 OFF   -oo +0 POST
@@ -230,7 +230,7 @@
 /ch/07/insert OFF POST OFF
 /ch/07/eq ON
 /ch/07/eq/1 VEQ 120.5 +0.00 2.0
-/ch/07/eq/2 PEQ 479.8 +0.00 1.0
+/ch/07/eq/2 PEQ 363.9 +2.00 1.0
 /ch/07/eq/3 PEQ 2k43 +0.00 2.0
 /ch/07/eq/4 HShv 7k09 -4.00 2.0
 /ch/07/mix ON   0.0 ON +0 ON   0.0
@@ -1455,7 +1455,7 @@
 /bus/01/eq/4 PEQ 1k97 +0.00 2.0
 /bus/01/eq/5 PEQ 5k02 +0.00 2.0
 /bus/01/eq/6 HCut 11k50 -4.75 2.0
-/bus/01/mix ON  -3.1 OFF +0 OFF   -oo
+/bus/01/mix ON   0.0 OFF +0 OFF   -oo
 /bus/01/mix/01 ON   -oo +0 POST
 /bus/01/mix/02 ON   -oo
 /bus/01/mix/03 ON   -oo +0 POST
@@ -1474,7 +1474,7 @@
 /bus/02/eq/4 PEQ 1k97 +0.00 2.0
 /bus/02/eq/5 PEQ 5k02 +0.00 2.0
 /bus/02/eq/6 HCut 14k15 -6.00 2.0
-/bus/02/mix ON  -3.1 OFF +0 OFF   -oo
+/bus/02/mix ON   0.0 OFF +0 OFF   -oo
 /bus/02/mix/01 ON   -oo +0 POST
 /bus/02/mix/02 ON   -oo
 /bus/02/mix/03 ON   -oo +0 POST
@@ -1837,7 +1837,7 @@
 /main/st/eq/4 PEQ 257.6 -15.0 5.0
 /main/st/eq/5 PEQ 266.7 +9.00 5.0
 /main/st/eq/6 PEQ 514.1 -7.00 2.6
-/main/st/mix ON  -0.5 +0
+/main/st/mix ON   0.0 +0
 /main/st/mix/01 ON   -oo +0 POST
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST
@@ -1855,7 +1855,7 @@
 /main/m/eq/4 PEQ 69.3 -4.25  10
 /main/m/eq/5 PEQ 85.3 -15.0 2.0
 /main/m/eq/6 HCut 52.6 +0.00 2.0
-/main/m/mix ON   0.0
+/main/m/mix ON  -0.1
 /main/m/mix/01 ON   -oo +0 POST
 /main/m/mix/02 ON   -oo
 /main/m/mix/03 ON   -oo +0 POST
@@ -1978,7 +1978,7 @@
 /headamp/003 +32.0 OFF
 /headamp/004 +26.0 ON
 /headamp/005 +16.0 OFF
-/headamp/006 +16.0 OFF
+/headamp/006 +13.0 OFF
 /headamp/007 +33.0 OFF
 /headamp/008 +35.0 OFF
 /headamp/009 +35.0 OFF
