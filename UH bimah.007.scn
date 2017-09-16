@@ -1,4 +1,4 @@
-#2.1# "Kalix" "" %000000000 1                                                                                                  
+#2.6# "Kalix" "Kalix on guest mic" %000000000 1                                                                                
 /config/chlink OFF OFF OFF OFF OFF ON OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
