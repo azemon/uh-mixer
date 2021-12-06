@@ -1,9 +1,20 @@
-#2.1#
+#4.0#
 show "UH bimah" 0 0 0 0 0 0 0 0 0 0 "X32-Edit 3.00"
 scene/000 "power on" "Shabbat and Saturday" %000000000 1
 scene/001 "Rick Recht Band" "" %000000000 1
+scene/002 "SHIR JOY" "" %000000000 1
 scene/003 "HHD" "High Holy Days" %000000000 1
-scene/007 "Kalix" "Kalix on guest mic" %000000000 1
-scene/008 "Nefesh Mountain" "" %000000000 1
+scene/005 "SHABBAT w output" "for external recorder" %000000000 1
+scene/007 "Shabbat covid" "" %000000000 1
+scene/009 "Sound training" "input from USB" %000000000 1
+scene/015 "BILLY MIKEY" "" %000000000 1
+scene/016 "DJM HHD wRR 21" "" %000000000 1
+scene/017 "MacRunnelShabbat" "21" %000000000 1
+scene/094 "Update20211203" "AZ" %000000000 1
+scene/095 "UPDATED20211024" "AZ" %000000000 1
+scene/096 "UPDATED 20211015" "AZ" %000000000 1
+scene/097 "UPDATED 211012" "TAG" %000000000 1
+scene/098 "211010" "" %000000000 1
+scene/099 "AS FOUND 211007" "TAG" %000000000 1
 snippet/000 "live sound" 8388672 0 0 192 1
 snippet/001 "virtual snd chk" 8388672 0 0 192 1
