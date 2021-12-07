@@ -1,4 +1,4 @@
-#4.0# "New December 202" "AZ" %000000000 1                                                                                     
+#4.0# "New Dec 2021" "AZ" %000000000 1                                                                                         
 /config/chlink OFF OFF OFF OFF OFF ON OFF OFF ON OFF OFF OFF OFF OFF OFF ON
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
@@ -38,7 +38,7 @@
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Ron" 53 YE 1
 /ch/01/delay OFF   6.0
-/ch/01/preamp +0.0 OFF ON 24  70
+/ch/01/preamp +0.0 OFF ON 24  49
 /ch/01/gate OFF GATE -80.0 60.0 1  502  983 0
 /ch/01/gate/filter OFF 3.0 990.9
 /ch/01/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
@@ -49,7 +49,7 @@
 /ch/01/eq/2 PEQ 514.1 +0.00 1.0
 /ch/01/eq/3 PEQ 1k97 +0.00 2.0
 /ch/01/eq/4 HShv 6k85 -3.75 2.0
-/ch/01/mix ON   0.0 ON +0 ON  +0.8
+/ch/01/mix ON   0.0 ON +0 OFF   0.0
 /ch/01/mix/01 ON -10.0 +0 PRE 0
 /ch/01/mix/02 ON -10.0
 /ch/01/mix/03 ON   0.0 +0 POST 0
@@ -561,7 +561,7 @@
 /ch/17/eq/2 PEQ 496.6 +0.00 2.0
 /ch/17/eq/3 PEQ 1k97 +0.00 2.0
 /ch/17/eq/4 HShv 10k02 +0.00 2.0
-/ch/17/mix ON   -oo ON -100 ON  +1.0
+/ch/17/mix ON   0.0 ON -100 ON   0.0
 /ch/17/mix/01 ON   0.0 -100 PRE 0
 /ch/17/mix/02 ON   0.0
 /ch/17/mix/03 ON   0.0 -100 POST 1
@@ -593,7 +593,7 @@
 /ch/18/eq/2 PEQ 496.6 +0.00 2.0
 /ch/18/eq/3 PEQ 1k97 +0.00 2.0
 /ch/18/eq/4 HShv 10k02 +0.00 2.0
-/ch/18/mix ON   -oo ON +100 ON  +1.0
+/ch/18/mix ON   0.0 ON +100 ON   0.0
 /ch/18/mix/01 ON   0.0 +100 PRE 0
 /ch/18/mix/02 ON   0.0
 /ch/18/mix/03 ON   0.0 +100 POST 1
@@ -996,7 +996,7 @@
 /ch/30/mix/16 ON   -oo
 /ch/30/grp %00000000 %000000
 /ch/30/automix OFF  +0.0
-/ch/31/config "Ambient L" 1 YE 31
+/ch/31/config "Ambient L" 47 YE 31
 /ch/31/delay OFF   0.3
 /ch/31/preamp +0.0 OFF OFF 24  20
 /ch/31/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -1010,8 +1010,8 @@
 /ch/31/eq/3 PEQ 1k97 +0.00 2.0
 /ch/31/eq/4 HShv 10k02 +0.00 2.0
 /ch/31/mix ON   0.0 OFF -100 OFF   -oo
-/ch/31/mix/01 ON   -oo -100 PRE 0
-/ch/31/mix/02 ON   -oo
+/ch/31/mix/01 OFF   -oo -100 PRE 0
+/ch/31/mix/02 OFF   -oo
 /ch/31/mix/03 ON -20.0 -100 POST 1
 /ch/31/mix/04 ON -20.0
 /ch/31/mix/05 ON   -oo -100 PRE 0
@@ -1028,7 +1028,7 @@
 /ch/31/mix/16 ON   -oo
 /ch/31/grp %00000000 %000000
 /ch/31/automix OFF  +0.0
-/ch/32/config "Ambient R" 1 YE 32
+/ch/32/config "Ambient R" 47 YE 32
 /ch/32/delay OFF   0.3
 /ch/32/preamp +0.0 OFF OFF 24  20
 /ch/32/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -1042,8 +1042,8 @@
 /ch/32/eq/3 PEQ 1k97 +0.00 2.0
 /ch/32/eq/4 HShv 10k02 +0.00 2.0
 /ch/32/mix ON   0.0 OFF +100 OFF   -oo
-/ch/32/mix/01 ON   -oo +100 PRE 0
-/ch/32/mix/02 ON   -oo
+/ch/32/mix/01 OFF   -oo +100 PRE 0
+/ch/32/mix/02 OFF   -oo
 /ch/32/mix/03 ON -20.0 +100 POST 1
 /ch/32/mix/04 ON -20.0
 /ch/32/mix/05 ON   -oo +100 PRE 0
@@ -1117,7 +1117,7 @@
 /auxin/03/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/03/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/03/eq/4 HShv 10k02 +0.00 2.0
-/auxin/03/mix ON   -oo OFF +0 OFF   0.0
+/auxin/03/mix ON   -oo OFF +0 OFF   -oo
 /auxin/03/mix/01 ON   -oo -100 POST 0
 /auxin/03/mix/02 ON   -oo
 /auxin/03/mix/03 ON   -oo -100 POST 0
@@ -1142,7 +1142,7 @@
 /auxin/04/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/04/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/04/eq/4 HShv 10k02 +0.00 2.0
-/auxin/04/mix ON   -oo OFF +0 OFF   0.0
+/auxin/04/mix ON   -oo OFF +0 OFF   -oo
 /auxin/04/mix/01 ON   -oo +100 POST 0
 /auxin/04/mix/02 ON   -oo
 /auxin/04/mix/03 ON   -oo +100 POST 0
@@ -1160,14 +1160,14 @@
 /auxin/04/mix/15 ON   -oo +100 POST 0
 /auxin/04/mix/16 ON   -oo
 /auxin/04/grp %00000000 %000000
-/auxin/05/config "Phone L" 56 GN 37
-/auxin/05/preamp -6.0 OFF
+/auxin/05/config "" 1 GN 37
+/auxin/05/preamp +0.0 OFF
 /auxin/05/eq OFF
 /auxin/05/eq/1 PEQ 124.7 +0.00 2.0
 /auxin/05/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/05/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/05/eq/4 HShv 10k02 +0.00 2.0
-/auxin/05/mix ON   -oo ON -100 ON   0.0
+/auxin/05/mix ON   -oo OFF -100 OFF   -oo
 /auxin/05/mix/01 ON   -oo -100 POST 0
 /auxin/05/mix/02 ON   -oo
 /auxin/05/mix/03 ON   -oo -100 POST 0
@@ -1185,14 +1185,14 @@
 /auxin/05/mix/15 ON   -oo -100 POST 0
 /auxin/05/mix/16 ON   -oo
 /auxin/05/grp %00000000 %000000
-/auxin/06/config "Phone R" 57 GN 38
-/auxin/06/preamp -6.0 OFF
+/auxin/06/config "" 1 GN 38
+/auxin/06/preamp +0.0 OFF
 /auxin/06/eq OFF
 /auxin/06/eq/1 PEQ 124.7 +0.00 2.0
 /auxin/06/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/06/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/06/eq/4 HShv 10k02 +0.00 2.0
-/auxin/06/mix ON   -oo ON +100 ON   0.0
+/auxin/06/mix ON   -oo OFF +100 OFF   -oo
 /auxin/06/mix/01 ON   -oo +100 POST 0
 /auxin/06/mix/02 ON   -oo
 /auxin/06/mix/03 ON   -oo +100 POST 0
@@ -1217,7 +1217,7 @@
 /auxin/07/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/07/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/07/eq/4 HShv 10k02 +0.00 2.0
-/auxin/07/mix ON   -oo ON -100 OFF   -oo
+/auxin/07/mix ON   -oo OFF -100 OFF   -oo
 /auxin/07/mix/01 ON   -oo -100 POST 0
 /auxin/07/mix/02 ON   -oo
 /auxin/07/mix/03 ON   -oo -100 POST 0
@@ -1242,7 +1242,7 @@
 /auxin/08/eq/2 PEQ 496.6 +0.00 2.0
 /auxin/08/eq/3 PEQ 1k97 +0.00 2.0
 /auxin/08/eq/4 HShv 10k02 +0.00 2.0
-/auxin/08/mix ON   -oo ON +100 OFF   -oo
+/auxin/08/mix ON   -oo OFF +100 OFF   -oo
 /auxin/08/mix/01 ON   -oo +100 POST 0
 /auxin/08/mix/02 ON   -oo
 /auxin/08/mix/03 ON   -oo +100 POST 0
@@ -1452,7 +1452,7 @@
 /fxrtn/08/mix/15 ON   -oo +100 POST 0
 /fxrtn/08/mix/16 ON   -oo
 /fxrtn/08/grp %00000000 %000000
-/bus/01/config "Monitor 1" 64 WH
+/bus/01/config "Monitor 1" 63 WH
 /bus/01/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/01/dyn/filter OFF 3.0 990.9
 /bus/01/insert OFF PRE OFF
@@ -1471,7 +1471,7 @@
 /bus/01/mix/05 ON   -oo +0 POST 0
 /bus/01/mix/06 ON   -oo
 /bus/01/grp %00000000 %000000
-/bus/02/config "Monitor 2" 65 WH
+/bus/02/config "Monitor 2" 63 WH
 /bus/02/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/02/dyn/filter OFF 3.0 990.9
 /bus/02/insert OFF PRE OFF
@@ -1490,7 +1490,7 @@
 /bus/02/mix/05 ON   -oo +0 POST 0
 /bus/02/mix/06 ON   -oo
 /bus/02/grp %00000000 %000000
-/bus/03/config "Broadcast L" 71 WH
+/bus/03/config "Broadcast L" 62 WH
 /bus/03/dyn ON COMP RMS LOG -23.5 3.0 4 0.00 10 10.0  151 POST 0 100 OFF
 /bus/03/dyn/filter OFF 3.0 990.9
 /bus/03/insert OFF PRE OFF
@@ -1509,7 +1509,7 @@
 /bus/03/mix/05 ON   -oo -100 POST 0
 /bus/03/mix/06 ON   -oo
 /bus/03/grp %00000000 %000000
-/bus/04/config "Broadcast R" 71 WH
+/bus/04/config "Broadcast R" 62 WH
 /bus/04/dyn ON COMP RMS LOG -23.5 3.0 4 0.00 10 10.0  151 POST 0 100 OFF
 /bus/04/dyn/filter OFF 3.0 990.9
 /bus/04/insert OFF PRE OFF
