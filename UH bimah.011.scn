@@ -804,7 +804,7 @@
 /ch/24/mix/16 ON   -oo
 /ch/24/grp %00000000 %000000
 /ch/24/automix OFF  +0.0
-/ch/25/config "Mic 1" 1 OFFi 25
+/ch/25/config "Mic 1" 1 CY 25
 /ch/25/delay OFF   0.3
 /ch/25/preamp +0.0 OFF OFF 24  20
 /ch/25/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -836,7 +836,7 @@
 /ch/25/mix/16 ON   -oo
 /ch/25/grp %00000000 %000000
 /ch/25/automix OFF  +0.0
-/ch/26/config "Music L" 1 OFFi 26
+/ch/26/config "Music L" 1 CY 26
 /ch/26/delay OFF   0.3
 /ch/26/preamp +0.0 OFF OFF 24  20
 /ch/26/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -868,7 +868,7 @@
 /ch/26/mix/16 ON   -oo
 /ch/26/grp %00000000 %000000
 /ch/26/automix OFF  +0.0
-/ch/27/config "Music R" 1 OFFi 27
+/ch/27/config "Music R" 1 CY 27
 /ch/27/delay OFF   0.3
 /ch/27/preamp +0.0 OFF OFF 24  20
 /ch/27/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -900,7 +900,7 @@
 /ch/27/mix/16 ON   -oo
 /ch/27/grp %00000000 %000000
 /ch/27/automix OFF  +0.0
-/ch/28/config "Mic 2" 1 OFFi 28
+/ch/28/config "Mic 2" 1 CY 28
 /ch/28/delay OFF   0.3
 /ch/28/preamp +0.0 OFF OFF 24  20
 /ch/28/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -932,7 +932,7 @@
 /ch/28/mix/16 ON   -oo
 /ch/28/grp %00000000 %000000
 /ch/28/automix OFF  +0.0
-/ch/29/config "Mic 3" 1 OFFi 29
+/ch/29/config "Mic 3" 1 CY 29
 /ch/29/delay OFF   0.3
 /ch/29/preamp +0.0 OFF OFF 24  20
 /ch/29/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -964,7 +964,7 @@
 /ch/29/mix/16 ON   -oo
 /ch/29/grp %00000000 %000000
 /ch/29/automix OFF  +0.0
-/ch/30/config "Mic 4" 1 OFFi 30
+/ch/30/config "Mic 4" 1 CY 30
 /ch/30/delay OFF   0.3
 /ch/30/preamp +0.0 OFF OFF 24  20
 /ch/30/gate OFF GATE -80.0 60.0 1  502  983 0
