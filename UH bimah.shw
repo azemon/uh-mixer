@@ -1,15 +1,6 @@
 #4.0#
 show "UH bimah" 0 0 0 0 0 0 0 0 0 0 "X32-Edit 3.00"
 scene/000 "power on" "Shabbat and Saturday" %000000000 1
-scene/001 "Rick Recht Band" "" %000000000 1
-scene/002 "SHIR JOY" "" %000000000 1
-scene/003 "HHD" "High Holy Days" %000000000 1
-scene/005 "SHABBAT w output" "for external recorder" %000000000 1
-scene/007 "Shabbat covid" "" %000000000 1
-scene/009 "Sound training" "input from USB" %000000000 1
-scene/011 "December 2021" "AZ" %000000000 1
-scene/015 "BILLY MIKEY" "" %000000000 1
-scene/016 "DJM HHD wRR 21" "" %000000000 1
 scene/017 "MacRunnelShabbat" "21" %000000000 1
 scene/094 "Update20211203" "AZ" %000000000 1
 scene/095 "UPDATED20211024" "AZ" %000000000 1
