@@ -338,7 +338,7 @@
 /ch/10/eq/3 PEQ 2k04 -2.50 1.3
 /ch/10/eq/4 HShv 9k35 +0.00 2.0
 /ch/10/mix ON   0.0 ON -10 ON   0.0
-/ch/10/mix/01 ON   0.0 +0 PRE 0
+/ch/10/mix/01 ON  -3.0 +0 PRE 0
 /ch/10/mix/02 ON   0.0
 /ch/10/mix/03 ON   0.0 -10 POST 1
 /ch/10/mix/04 ON   0.0
@@ -460,11 +460,11 @@
 /ch/14/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /ch/14/dyn/filter OFF 3.0 990.9
 /ch/14/insert OFF POST OFF
-/ch/14/eq OFF
-/ch/14/eq/1 PEQ 124.7 +0.00 2.0
-/ch/14/eq/2 PEQ 496.6 +0.00 2.0
-/ch/14/eq/3 PEQ 1k97 +0.00 2.0
-/ch/14/eq/4 HShv 10k02 +0.00 2.0
+/ch/14/eq ON
+/ch/14/eq/1 PEQ 124.7 +4.50 1.2
+/ch/14/eq/2 PEQ 496.6 +4.75 1.0
+/ch/14/eq/3 PEQ 1k97 -3.50 1.3
+/ch/14/eq/4 HShv 9k35 +0.00 2.0
 /ch/14/mix OFF   0.0 ON +0 ON   0.0
 /ch/14/mix/01 ON   0.0 +0 PRE 0
 /ch/14/mix/02 ON   0.0
@@ -1482,7 +1482,7 @@
 /bus/02/eq/4 PEQ 1k97 +0.00 2.0
 /bus/02/eq/5 PEQ 5k02 +0.00 2.0
 /bus/02/eq/6 HShv 10k02 +0.00 2.0
-/bus/02/mix ON   0.0 OFF +0 OFF   -oo
+/bus/02/mix ON   0.0 OFF -58 OFF   -oo
 /bus/02/mix/01 ON   -oo +0 POST 0
 /bus/02/mix/02 ON   -oo
 /bus/02/mix/03 ON   -oo +0 POST 0
@@ -1501,7 +1501,7 @@
 /bus/03/eq/4 PEQ 1k97 +0.00 2.0
 /bus/03/eq/5 PEQ 5k02 +0.00 2.0
 /bus/03/eq/6 HShv 10k02 +0.00 2.0
-/bus/03/mix ON  -0.5 OFF -100 OFF   -oo
+/bus/03/mix ON   0.0 OFF -100 OFF   -oo
 /bus/03/mix/01 ON   -oo -100 POST 0
 /bus/03/mix/02 ON   -oo
 /bus/03/mix/03 ON   -oo -100 POST 0
@@ -1520,7 +1520,7 @@
 /bus/04/eq/4 PEQ 1k97 +0.00 2.0
 /bus/04/eq/5 PEQ 5k02 +0.00 2.0
 /bus/04/eq/6 HShv 10k02 +0.00 2.0
-/bus/04/mix ON  -0.5 OFF +100 OFF   -oo
+/bus/04/mix ON   0.0 OFF +100 OFF   -oo
 /bus/04/mix/01 ON   -oo +100 POST 0
 /bus/04/mix/02 ON   -oo
 /bus/04/mix/03 ON   -oo +100 POST 0
@@ -2116,7 +2116,7 @@
 /headamp/125 +0.0 OFF
 /headamp/126 +0.0 OFF
 /headamp/127 +0.0 OFF
-/-stat/selidx Bus3
+/-stat/selidx Ch12
 /-stat/chfaderbank 0
 /-stat/grpfaderbank 1
 /-stat/sendsonfader OFF
