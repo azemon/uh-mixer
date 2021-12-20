@@ -1,6 +1,7 @@
 #4.0#
 show "UH bimah" 0 0 0 0 0 0 0 0 0 0 "X32-Edit 3.00"
 scene/000 "power on" "Shabbat and Saturday" %000000000 1
+scene/010 "Playback" "multitrack" %000000000 1
 scene/017 "MacRunnelShabbat" "21" %000000000 1
 scene/094 "Update20211203" "AZ" %000000000 1
 scene/095 "UPDATED20211024" "AZ" %000000000 1
