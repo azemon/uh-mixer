@@ -1,4 +1,4 @@
-#4.0# "power on" "Shabbat and Saturday" %000000000 1                                                                           
+#4.0# "Playback" "multitrack" %000000000 1                                                                                     
 /config/chlink OFF OFF OFF OFF OFF OFF OFF ON ON OFF OFF OFF OFF OFF OFF ON
 /config/auxlink OFF OFF ON ON
 /config/fxlink ON ON ON ON
@@ -15,7 +15,7 @@
 /config/userrout/out 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/userrout/in 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/routing REC
-/config/routing/IN A1-8 A9-16 A17-24 AN25-32 AUX1-4
+/config/routing/IN CARD1-8 CARD9-16 CARD17-24 CARD25-32 AUX1-4
 /config/routing/AES50A OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
 /config/routing/AES50B OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
 /config/routing/CARD A1-8 A9-16 A17-24 AN25-32
@@ -49,7 +49,7 @@
 /ch/01/eq/2 PEQ 514.1 +0.00 1.0
 /ch/01/eq/3 PEQ 1k97 +0.00 2.0
 /ch/01/eq/4 HShv 6k85 -3.75 2.0
-/ch/01/mix ON  +0.1 ON +0 OFF   0.0
+/ch/01/mix ON  -0.1 ON +0 OFF   0.0
 /ch/01/mix/01 ON -10.0 +0 PRE 0
 /ch/01/mix/02 ON -10.0
 /ch/01/mix/03 ON   0.0 +0 POST 0
@@ -548,7 +548,7 @@
 /ch/16/mix/16 ON   -oo
 /ch/16/grp %00000000 %000000
 /ch/16/automix OFF  +0.0
-/ch/17/config "Phone L" 58 CY 17
+/ch/17/config "Phone L" 58 GN 17
 /ch/17/delay OFF   0.3
 /ch/17/preamp +0.0 OFF OFF 24  35
 /ch/17/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -580,7 +580,7 @@
 /ch/17/mix/16 ON   -oo
 /ch/17/grp %00000000 %000000
 /ch/17/automix OFF  +0.0
-/ch/18/config "Phone R" 59 CY 18
+/ch/18/config "Phone R" 59 GN 18
 /ch/18/delay OFF   0.3
 /ch/18/preamp +0.0 OFF OFF 24  35
 /ch/18/gate OFF GATE -80.0 60.0 1  502  983 0
@@ -1851,7 +1851,7 @@
 /main/st/eq/4 PEQ 257.6 -13.7 5.0
 /main/st/eq/5 PEQ 266.7 +9.00 5.0
 /main/st/eq/6 PEQ 514.1 -5.00 2.6
-/main/st/mix ON   0.0 +0
+/main/st/mix ON -25.0 +0
 /main/st/mix/01 ON   -oo +0 POST 0
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST 0
@@ -1870,7 +1870,7 @@
 /main/m/eq/4 PEQ 69.3 -4.25  10
 /main/m/eq/5 PEQ 85.3 -15.0 2.0
 /main/m/eq/6 HCut 52.6 +0.00 2.0
-/main/m/mix ON   0.0
+/main/m/mix ON   -oo
 /main/m/mix/01 ON   -oo +0 POST 0
 /main/m/mix/02 ON   -oo
 /main/m/mix/03 ON   -oo +0 POST 0
@@ -2021,7 +2021,7 @@
 /headamp/030 +38.5 ON
 /headamp/031 +38.5 ON
 /headamp/032 +33.0 OFF
-/headamp/033 +13.5 OFF
+/headamp/033 +22.5 OFF
 /headamp/034 +17.0 OFF
 /headamp/035 +32.0 OFF
 /headamp/036 +29.0 ON
@@ -2116,7 +2116,7 @@
 /headamp/125 +0.0 OFF
 /headamp/126 +0.0 OFF
 /headamp/127 +0.0 OFF
-/-stat/selidx Ch02
+/-stat/selidx Bus3
 /-stat/chfaderbank 0
 /-stat/grpfaderbank 1
 /-stat/sendsonfader OFF
